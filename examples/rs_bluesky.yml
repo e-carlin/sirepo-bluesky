@@ -1,0 +1,6 @@
+sources:
+  rs_bluesky:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatastore_db: mongodb://localhost:27016/rs-bluesky
+      asset_registry_db: mongodb://localhost:27016/rs-bluesky
